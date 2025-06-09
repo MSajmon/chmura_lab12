@@ -14,6 +14,9 @@ Projekt realizuje stack LEMP (Linux, Nginx, MySQL, PHP-FPM) z dodatkową usług�
 ##  Uruchomienie projektu
 docker compose up -d
 
+##  Wyłączenie kontenerów
+docker-compose down -v
+
 ##  Wejście na strony
 - http://localhost:4001 → strona PHP
 - http://localhost:6001 → phpMyAdmin
